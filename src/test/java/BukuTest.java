@@ -10,6 +10,7 @@ public class BukuTest {
     public void testGetProduser() {
         Buku buku = new Buku("Buku MKPL", 10);
         Buku buku2 = new Buku("Buku MKPL", 10);
+        Buku buku3 = new Buku("Buku MKPL", 10);
         assertEquals("bukuZaky", buku.getProduser());
     }
 
