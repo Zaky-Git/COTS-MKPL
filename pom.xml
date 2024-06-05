@@ -24,7 +24,7 @@
         <repository>
             <id>github</id>
             <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/Zaky-Git/tesc</url>
+            <url>https://maven.pkg.github.com/Zaky-Git/COTS-MKPL</url>
         </repository>
     </distributionManagement>
 </project>
