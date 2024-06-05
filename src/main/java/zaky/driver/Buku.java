@@ -11,8 +11,9 @@ package zaky.driver;
 public class Buku {
     private String judul;
     private String kodeBuku;
+    private String produser = "bukuZaky";
     private int kuantitas;
-    
+
     private static int fic = 0;
     private static int nfc = 0;
     private static int txt = 0;
@@ -20,6 +21,10 @@ public class Buku {
     public Buku(String judul, int kuantitas) {
         this.judul = judul;
         this.kuantitas = kuantitas;
+    }
+
+    public String getProduser() {
+        return this.produser;
     }
 
     public void setKodeBuku(String kodeBuku) {
